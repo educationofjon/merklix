@@ -4,6 +4,7 @@
 #include <string.h>
 #include <stdbool.h>
 
+#include "sha256.h"
 #include "hash.h"
 
 #define MERKLIX_HAS_BIT(m, i) (((m)[(i) >> 3] >> (7 - ((i) & 7))) & 1)
